@@ -1,0 +1,17 @@
+{
+  "name": "file_upload",
+  "version": "1.0.0",
+  "description": "file upload test",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^10.1.0",
+    "multiparty": "^4.2.3",
+    "spark-md5": "^3.0.2"
+  }
+}
