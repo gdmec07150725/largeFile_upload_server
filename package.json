@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,5 +14,8 @@
     "fs-extra": "^10.1.0",
     "multiparty": "^4.2.3",
     "spark-md5": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }

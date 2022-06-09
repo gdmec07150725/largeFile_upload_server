@@ -71,6 +71,7 @@ server.on("request", async (req, res) => {
   }
 
   if (req.url === "/") {
+    res.status = 200;
     res.end("node服务已启动");
   }
 
